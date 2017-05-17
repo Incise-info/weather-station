@@ -122,124 +122,205 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="appc\bmp180_app\bmp180_app.c">
+    <Compile Include="appc\app_bmp180\bmp180_app.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="appc\bmp180_app\bmp180_app.h">
+    <Compile Include="appc\app_bmp180\bmp180_app.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="appc\dht11_app\CFile.c">
+    <Compile Include="appc\app_dht11\app_dht11.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="appc\dht11_app\HFile.h">
+    <Compile Include="appc\app_dht11\app_dht11.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="appc\esp8266_app\CFile.c">
+    <Compile Include="appc\app_esp8266\CFile.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="appc\esp8266_app\HFile.h">
+    <Compile Include="appc\app_esp8266\HFile.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="appc\rain_drop_app\CFile.c">
+    <Compile Include="appc\app_rain_drop\CFile.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="appc\rain_drop_app\HFile.h">
+    <Compile Include="appc\app_rain_drop\HFile.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="appc\soil_humidity_app\CFile.c">
+    <Compile Include="appc\app_soil_humidity\CFile.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="appc\soil_humidity_app\HFile.h">
+    <Compile Include="appc\app_soil_humidity\HFile.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="appc\uart_app\CFile.c">
+    <Compile Include="appc\app_uart\CFile.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="appc\uart_app\HFile.h">
+    <Compile Include="appc\app_uart\HFile.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\Analog_Read_task\analog_sensor.c">
+    <Compile Include="driver\drv_analog_rw\analog_sensor.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\Analog_Read_task\analog_sensor.h">
+    <Compile Include="driver\drv_analog_rw\analog_sensor.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\bmp180_task\drv_bmp.c">
+    <Compile Include="driver\drv_bmp180\drv_bmp.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\bmp180_task\drv_bmp.h">
+    <Compile Include="driver\drv_bmp180\drv_bmp.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\dht11_task\drv_dht.c">
+    <Compile Include="driver\drv_dht11\drv_dht.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\dht11_task\drv_dht.h">
+    <Compile Include="driver\drv_dht11\drv_dht.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\esp8266_task\drv_esp.c">
+    <Compile Include="driver\drv_esp8266\drv_esp.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\esp8266_task\drv_ESP.h">
+    <Compile Include="driver\drv_esp8266\drv_esp.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\rain_drop_task\drv_rain.c">
+    <Compile Include="driver\drv_rain_drop\drv_rain.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\rain_drop_task\drv_rain.h">
+    <Compile Include="driver\drv_rain_drop\drv_rain.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\soil_humidity_task\drv_soil.c">
+    <Compile Include="driver\drv_soil_humidity\drv_soil.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\soil_humidity_task\drv_soil.h">
+    <Compile Include="driver\drv_soil_humidity\drv_soil.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\uart_task\drv_uart.c">
+    <Compile Include="driver\drv_uart\drv_uart.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="driver\uart_task\drv_uart.h">
+    <Compile Include="driver\drv_uart\drv_uart.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\Analog_Read_frw\analog_sensor.c">
+    <Compile Include="frw\frw_analog_rw\frw_analog_rw.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\Analog_Read_frw\analog_sensor.h">
+    <Compile Include="frw\frw_analog_rw\frw_analog_rw.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\bmp180_frw\bmp180_frw.c">
+    <Compile Include="frw\frw_bmp180\frw_bmp180.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\bmp180_frw\bmp180_frw.h">
+    <Compile Include="frw\frw_bmp180\frw_bmp180.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\dht11_frw\CFile.c">
+    <Compile Include="frw\frw_dht11\frw_dht11.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\dht11_frw\HFile.h">
+    <Compile Include="frw\frw_dht11\frw_dht11.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\esp8266_frw\CFile.c">
+    <Compile Include="frw\frw_esp8266\frw_esp8266.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\esp8266_frw\HFile.h">
+    <Compile Include="frw\frw_esp8266\frw_esp8266.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\rain_drop_frw\CFile.c">
+    <Compile Include="frw\frw_main_task\frw_main_task.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\rain_drop_frw\HFile.h">
+    <Compile Include="frw\frw_main_task\frw_main_task.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\soil_humidity_frw\CFile.c">
+    <Compile Include="frw\frw_rain_drop\frw_rain_drop.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\soil_humidity_frw\HFile.h">
+    <Compile Include="frw\frw_rain_drop\frw_rain_drop.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\uart_frw\CFile.c">
+    <Compile Include="frw\frw_soil_humidity\frw_soil_hu.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="frw\uart_frw\HFile.h">
+    <Compile Include="frw\frw_soil_humidity\frw_soil_hu.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\api\rtos.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\api\rtos.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\croutine.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\croutine.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\event_groups.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\event_groups.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\FreeRTOS.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\FreeRTOSBoardDefs.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\FreeRTOSConfig.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\heap_3.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\hooks.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\list.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\list.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\mpu_prototypes.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\mpu_wrappers.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\port.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\portable.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\portmacro.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\projdefs.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\queue.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\queue.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\semphr.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\StackMacros.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\task.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\tasks.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\timers.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="libs\freertos\timers.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="libs\i2c\i2c_lib.c">
@@ -263,33 +344,35 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="appc\" />
-    <Folder Include="appc\bmp180_app\" />
-    <Folder Include="appc\dht11_app\" />
-    <Folder Include="appc\esp8266_app\" />
-    <Folder Include="appc\rain_drop_app\" />
-    <Folder Include="appc\soil_humidity_app\" />
-    <Folder Include="appc\uart_app\" />
+    <Folder Include="appc\app_bmp180\" />
+    <Folder Include="appc\app_dht11\" />
+    <Folder Include="appc\app_esp8266\" />
+    <Folder Include="appc\app_rain_drop\" />
+    <Folder Include="appc\app_soil_humidity\" />
+    <Folder Include="appc\app_uart\" />
     <Folder Include="Debug\" />
     <Folder Include="driver\" />
-    <Folder Include="driver\Analog_Read_task\" />
-    <Folder Include="driver\bmp180_task\" />
-    <Folder Include="driver\dht11_task\" />
-    <Folder Include="driver\esp8266_task\" />
-    <Folder Include="driver\rain_drop_task\" />
-    <Folder Include="driver\soil_humidity_task\" />
-    <Folder Include="driver\uart_task\" />
+    <Folder Include="driver\drv_analog_rw\" />
+    <Folder Include="driver\drv_bmp180\" />
+    <Folder Include="driver\drv_dht11\" />
+    <Folder Include="driver\drv_esp8266\" />
+    <Folder Include="driver\drv_rain_drop\" />
+    <Folder Include="driver\drv_soil_humidity\" />
+    <Folder Include="driver\drv_uart\" />
     <Folder Include="frw\" />
-    <Folder Include="frw\Analog_Read_frw\" />
-    <Folder Include="frw\bmp180_frw\" />
-    <Folder Include="frw\dht11_frw\" />
-    <Folder Include="frw\esp8266_frw\" />
-    <Folder Include="frw\rain_drop_frw\" />
-    <Folder Include="frw\soil_humidity_frw\" />
-    <Folder Include="frw\uart_frw\" />
-    <Folder Include="libs" />
-    <Folder Include="libs\i2c" />
-    <Folder Include="libs\uart" />
-    <Folder Include="libs\spi" />
+    <Folder Include="frw\frw_analog_rw\" />
+    <Folder Include="frw\frw_bmp180\" />
+    <Folder Include="frw\frw_dht11\" />
+    <Folder Include="frw\frw_esp8266\" />
+    <Folder Include="frw\frw_main_task\" />
+    <Folder Include="frw\frw_rain_drop\" />
+    <Folder Include="frw\frw_soil_humidity\" />
+    <Folder Include="libs\" />
+    <Folder Include="libs\freertos\" />
+    <Folder Include="libs\freertos\api\" />
+    <Folder Include="libs\i2c\" />
+    <Folder Include="libs\uart\" />
+    <Folder Include="license\" />
     <Folder Include="thirdparty\" />
     <Folder Include="ui\" />
   </ItemGroup>
@@ -301,6 +384,9 @@
       <SubType>compile</SubType>
     </None>
     <None Include="frw\README.txt">
+      <SubType>compile</SubType>
+    </None>
+    <None Include="license\license.txt">
       <SubType>compile</SubType>
     </None>
     <None Include="thirdparty\README.txt">

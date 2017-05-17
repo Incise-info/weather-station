@@ -1,6 +1,3 @@
-#include "drv_uart.h"
-#include "uart.h"
-
 /************************************************************************************************/
 /*	This file is part of Incise Weather Station.												*/
 /*																								*/
@@ -17,24 +14,17 @@
 /*	You should have received a copy of the GNU General Public License							*/
 /*	along with Foobar.  If not, see <http://www.gnu.org/licenses/>.                             */
 /************************************************************************************************/
-
-
-int init_uart(void)
+#include "D:\Projects @ Incise\WS\weather-station\weather-stn\appc\app_bmp180\bmp180_app.h"
+ float _data[] = {0,0};
+int app_dht ()
 {
-	/* Write code for init the uart */
+		_data[0] = temp;
+		_data[1] = humid;
+		return (int*)_data;
 }
 
-int read_data_uart()
+void rec_data(int dat1, int dat2)
 {
-	/*  write code for read data from uart */
-}
-
-int write_data_uart()
-{
-	/*  write code for write data from uart */
-}
-
-int stop_uart(void)
-{
-	/*write code here to stop uart*/
+	dat1 = temp;
+	dat2 = humid;
 }
